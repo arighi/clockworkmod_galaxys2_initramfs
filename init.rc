@@ -421,6 +421,8 @@ on boot
     write /sys/devices/system/cpu/cpufreq/ondemand/io_is_busy 1
     write /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate 20000
     write /sys/devices/system/cpu/cpufreq/ondemand/up_threshold 80
+    write /sys/devices/system/cpu/cpufreq/ondemand/deep_sleep 1
+    write /sys/devices/system/cpu/cpufreq/ondemand/fast_start 1
 
     write /sys/class/mdnieset_ui/switch_mdnieset_ui/mdnieset_init_file_cmd  0
 #    write /sys/class/mdnieset_ui/switch_mdnieset_ui/mdnieset_ui_file_cmd  0
